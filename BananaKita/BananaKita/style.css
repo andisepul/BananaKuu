@@ -1,0 +1,337 @@
+/* DASAR */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+/* BUAT SCROLL LEBIH HALUS */
+html {
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+header {
+    background-color: #f4a261;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+}
+
+header h1 {
+    margin: 10px 0 5px;
+}
+
+header h2 {
+    margin: 5px 0 15px;
+}
+
+
+/* NAVIGASI */
+nav {
+    background-color: #8b4513;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #f4a261;
+    text-decoration: none;
+}
+
+/* KONTEN UTAMA */
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #8b4513;
+    border-bottom: 3px solid #f4a261;
+    padding-bottom: 8px;
+}
+
+
+/* GAMBAR PROFIL */
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* PARAGRAF */
+section p {
+    margin-bottom: 15px;
+}
+
+/* TABEL PRODUK */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #8b4513;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+}
+
+tbody tr:hover {
+    background-color: #fff1df;
+}
+
+
+/* GAMBAR PRODUK */
+td img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+}
+
+
+/* HARGA */
+td:last-child {
+    font-weight: bold;
+    color: #8b4513;
+}
+
+
+/* KETERANGAN TABEL */
+tfoot td {
+    background-color: #fff1df;
+    font-style: italic;
+    color: #666;
+}
+
+/* GALERI */
+#galeri {
+    text-align: center;
+}
+
+#galeri figure {
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    margin: 15px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+#galeri img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+#galeri figcaption {
+    margin-top: 8px;
+    font-weight: bold;
+    color: #8b4513;
+}
+
+/* VIDEO */
+#video {
+    text-align: center;
+}
+
+#video video {
+    width: 600px;
+    max-width: 100%;
+    border: 4px solid #8b4513;
+    border-radius: 10px;
+}
+
+#video p {
+    max-width: 700px;
+    margin: 15px auto;
+}
+
+/* FORM PEMESANAN */
+#pesan form {
+    max-width: 700px;
+    margin: auto;
+}
+
+#pesan fieldset {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #f4a261;
+    background-color: white;
+}
+
+#pesan legend {
+    padding: 5px 10px;
+    font-weight: bold;
+    color: #8b4513;
+    background-color: #fff1df;
+}
+
+#pesan button {
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+#pesan button:hover {
+    background-color: #f4a261;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* KONTAK */
+#kontak {
+    text-align: center;
+    background-color: #fff1df;
+    padding: 25px;
+}
+
+#kontak p {
+    margin: 12px 0;
+}
+
+#kontak a {
+    color: #8b4513;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#kontak a:hover {
+    text-decoration: underline;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #8b4513;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer hr {
+    border: 0;
+    border-top: 1px solid #f4a261;
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+/* EFEK PRODUK */
+tbody tr {
+    transition: 0.3s;
+}
+
+tbody tr:hover {
+    background-color: #fff1df;
+    transform: scale(1.01);
+}
+
+td img {
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+td img:hover {
+    transform: scale(1.05);
+}
+
+/* EFEK GALERI */
+#galeri figure {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#galeri figure:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+#galeri img {
+    border-radius: 8px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px 10px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    main {
+        padding: 20px 10px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    td,
+    th {
+        padding: 8px;
+    }
+
+    td img {
+        width: 100px;
+        height: 90px;
+    }
+
+    #galeri figure {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    #video video {
+        width: 100%;
+    }
+
+    #pesan form {
+        width: 100%;
+    }
+
+}
